@@ -24,7 +24,7 @@ const Page = async () => {
       {errorMessage && <p>{errorMessage}</p>}
       <DataDisplay data={data} />
 
-      {/* Form component for posting new data */}
+      
       <FormComponent />
     </div>
   );

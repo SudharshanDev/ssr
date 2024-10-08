@@ -1,3 +1,4 @@
+
 const DataDisplay = ({ data }) => {
     return (
       <ul>

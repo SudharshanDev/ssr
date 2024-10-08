@@ -30,6 +30,7 @@ const FormComponent = () => {
         <div>
           <label htmlFor="name">Name:</label>
           <input
+          className=" border-2 "
             type="text"
             id="name"
             value={name}
@@ -40,6 +41,7 @@ const FormComponent = () => {
         <div>
           <label htmlFor="area">Area:</label>
           <input
+               className=" border-2 "
             type="text"
             id="area"
             value={area}
